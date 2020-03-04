@@ -1,0 +1,7 @@
+
+    def f(x) :
+        y = x**2
+        return y
+
+    for x in range(0,10) :
+        print f(x)*" " + "Hello World"
