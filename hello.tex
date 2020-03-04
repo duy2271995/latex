@@ -7,14 +7,33 @@
 
     \pagenumbering{gobble}
     \maketitle
+
+    \newpage
+    \tableofcontents
+
+    \newpage
+    \begin{appendix}
+        \listoffigures
+        \listoftables
+    \end{appendix}
+    
+
     \newpage
     \pagenumbering{arabic}
-    
+
     \section{Section 1}
     Hello, world!
 
     \subsection{Subsection 1.1}
     Structuring a document is easy!
+
+    \begin{figure}
+        \caption{Dummy figure}
+    \end{figure}
+
+    \begin{table}
+        \caption{Dummy table}
+    \end{table}
 
     \section{Section 2}
     Hello, Cad!
@@ -22,4 +41,5 @@
     \subsection{Subsection 2.1}
     It's awsome!
 
+    
 \end{document}
