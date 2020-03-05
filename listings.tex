@@ -1,13 +1,14 @@
 \documentclass{article}
 
+\usepackage[utf8]{vietnam}
 \usepackage{listings}
 \usepackage{color}
 
 \renewcommand\lstlistingname{Quelltext} % Change language of section name
 
 \lstset{ % General setup for the package
-	language=Perl,
-	basicstyle=\small\sffamily,
+	language=Bash,
+	basicstyle=\small\ttfamily,
 	numbers=left,
  	numberstyle=\tiny,
 	frame=tb,
@@ -21,8 +22,25 @@
 }
 
 \begin{document}
+Xin chào Việt Nam
 \begin{lstlisting}
-#!/usr/bin/perl
-print S(@ARGV);sub S{$r=(@_[0]%4==0&&@_[0]%100!=0)||@_[0]%400=0;}
+sudo apt update
 \end{lstlisting}
+
+\begin{itemize}
+	\item One
+	\item Two
+	\item Three
+\end{itemize}
+
+\begin{enumerate}
+	\item One
+		\begin{enumerate}
+			\item Two
+			\item Three
+			\item Bốn
+		\end{enumerate}
+	\item Five
+	\item Six
+\end{enumerate}
 \end{document}
